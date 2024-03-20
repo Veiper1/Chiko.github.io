@@ -1,0 +1,178 @@
+.fon{
+	background: url(https://ak.picdn.net/shutterstock/videos/14511379/thumb/1.jpg);
+	background-size: cover;
+	overflow: hidden;
+}
+.knopka{
+	width: 100px;
+	background-color: grey;
+	border-radius: 10px;
+	color: white;
+	font-size: 20px;
+	padding: 10px;;
+	a{
+		text-decoration: none;
+		color: white;
+	}
+}
+.knopka:hover{
+	background-color: deepskyblue;
+	color: white;
+
+}
+.text1{
+	width: 540px;
+	color: white;
+	font-size: 40px;
+	position: absolute;
+	top: 100px;
+	left: 192px;
+}
+.text2{
+	width: 540px;
+	color: white;
+	font-size: 20px;
+	text-indent: 20px;
+	text-align: justify;
+	position: absolute;
+	top: 160px;
+	left: 192px;
+}
+.nub{
+	width: 275px;
+	height: 5px;
+	background-color: limegreen;
+	border-radius: 2px;
+	position: absolute;
+	top: 150px;
+	left: 192px;		
+}
+.nub2{
+	width: 540px;
+	height: 5px;
+	background-color: limegreen;
+	border-radius: 2px;
+	position: absolute;
+	top: 400px;
+	left: 192px;
+}
+.paral{
+	background-color: gainsboro;
+	width: 400px;
+    height: 40px;
+    border: 2px solid white;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    -webkit-transform: skew(-30deg);
+    -moz-transform: skew(-30deg);
+    -o-transform: skew(-30deg);
+    transform: skew(-30deg);
+    position: absolute;
+    top: 420px;
+    left: 244px;
+    button{
+    	width: 430px;
+    	height: 65px;
+    	font-size: 36px;
+    	position: absolute;
+    	left: -5px;
+    	top:-3px;
+    }
+}
+.paral:hover {
+	background-color: gainsboro;
+	color: white;
+
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    width: 500PX;
+    height: 500px;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f9f9f9;
+    padding-left: 400px;
+    border: 1px solid #ccc;
+    z-index: 1000;
+}
+.blockx{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+.text3{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'arial';
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+.text4{
+	font-size: 25px;
+	font-family: 'arial';
+	position: absolute;
+	top: 55px;
+	left: 10px;
+}
+.text5{
+	position: absolute;
+	top: 90px;
+	left: 10px;
+}
+.text6{
+	font-size: 25px;
+	font-family: 'arial';
+	position: absolute;
+	top: 140px;
+	left: 10px;
+}
+.text7{
+	position: absolute;
+	top: 180px;
+	left: 10px;
+}
+.text8{
+	font-size: 25px;
+	font-family: 'arial';
+	position: absolute;
+	top: 230px;
+	left: 10px;
+}
+.text9{
+	position: absolute;
+	top: 270px;
+	left: 10px;
+}
+.text10{
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
+.notification {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .koment{
+    	width: 600px;
+    	height: 400px;
+    	background: url("koment.png");
+    	background-size: cover;
+    	position: absolute;
+    	top: 120px;
+    	left: 800px;
+    }

@@ -1,0 +1,187 @@
+.oblacko1{
+	background: url("https://praxa.pe/wp-content/uploads/2019/03/tech-background-hd-1.png");
+	background-size: cover;
+	overflow: hidden;
+}
+.conteiner{
+	display: flex;
+}
+.block{
+  height: 0;
+  width: 550px;
+  border-top: 150px solid midnightblue;
+  border-right: 70px solid transparent;
+  margin-left: 3%;
+  margin-top: 1%;
+}
+.avto{
+	font-style: italic;
+	font-size: 100px;
+	color: white;
+	position: relative;
+	top: -140px;
+	left: 30px;
+}
+.block3{
+	width: 200px;
+	height: 30px;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: silver;
+	border-radius: 10px;
+	margin-left: 31%;
+	margin-top: 5%;
+}
+.block3:hover{
+	background-color: deepskyblue;
+	color: white;
+}
+.block4{
+	width: 200px;
+	height: 30px;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: silver;
+	border-radius: 10px;
+	margin-top: 5%;
+	margin-left: 1%;
+}	
+.block4:hover{
+	background-color: deepskyblue;
+	color: white;
+}
+.avto2{
+	width: 400px;
+	height: 150px;
+	background-image: url("https://grizly.club/uploads/posts/2023-02/1676651579_grizly-club-p-klipart-avtomobil-chernii-34.png");
+	background-size: cover;
+	margin-left: 10%;
+}
+.block5{
+	height: 0;
+	width: 400px;
+	border-top: 50px solid skyblue;
+	border-left: 70px solid transparent;
+	margin-left: 35%;
+	margin-top: 1%;
+	padding-right: 10px;
+}
+.avto3{
+	font-size: 40px;
+	font-style: italic;
+	text-align: right;
+	position: relative;
+	top: -50px;
+}
+.block6{
+	max-height: 100%;
+	width: 110%;
+	font-size: 40px;
+	color: white;
+	margin-left: 6%;
+	margin-top: 6%;
+	padding-left: 10px;
+	background-color: rgba(0, 0, 100, 0.3);
+	border-radius: 10px;
+}
+.block7{
+	width: 400px;
+  height: 50px;
+  font-size: 35px;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 5px;
+  background-color: rgba(100, 200, 0, 0.5);
+  -webkit-transform: skew(-30deg);
+  -moz-transform: skew(-30deg);
+  -o-transform: skew(-30deg);
+  transform: skew(-30deg);
+  border-radius: 10px;
+  margin-top: 10%;
+  margin-left: 20%;
+}
+.block7:hover{
+	background-color: red;
+	text-decoration: none;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.whatsapp-button a {
+    color: white;
+}
+.whatsapp-button:before,{
+}
+.whatsapp-button:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    border: 50%;
+    border: 1px solid #25D366;
+    left: -20px;
+    right: -20px;
+    top: -20px;
+    bottom: -20px;
+    border-radius: 50%;
+    animation: animate 1.5s linear infinite;
+    opacity: 0;
+    backface-visibility: hidden; 
+}
+.whatsapp-button:after{
+    animation-delay: 0.5s;
+}
+@keyframes animate
+{
+    0%
+    {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    50%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+}
+.conteiner2{
+	width: 900px;
+	height: 550px;
+	position: absolute;
+	left: 56%;
+	top: 48%;
+}
+.slider{
+	width: 700px;
+	height: 550px;
+	margin: 10px auto;
+	overflow: hidden;
+}
+.slider-line{
+	width: 2400px;
+	height: 550px;
+	display: flex;
+	position: relative;
+	position: relative;
+	left: 0;
+	transition: all ease 1s;
+}
+.slider-prev{
+	position: absolute;
+	left: 8%;
+	top: 44%;
+}
+.slider-next{
+	position: absolute;
+	right: 8%;
+	top: 44%;
+}

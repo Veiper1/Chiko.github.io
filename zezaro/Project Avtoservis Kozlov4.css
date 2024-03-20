@@ -1,0 +1,50 @@
+.fon{
+	background: url("http://ic.pics.livejournal.com/zdorovs/16627846/1517179/1517179_original.jpg");
+	background-size: cover;
+}
+.fon2{
+	background-color: dimgray; 
+	width: 1000px;
+	height: 720px;
+	position: absolute;
+	top: 100px;
+	left: 460px;
+	border-radius: 10px;
+}
+.ustal2{
+	width: 800px;
+	height: 500	px;
+	background-size: cover;
+	position: absolute;
+	top: 70px;
+	left: 60px;
+}
+
+.ustal{
+	width: 150px;
+	height: 40px;
+	background-color: white;
+	border-radius: 10px;
+	border: 2px solid black;
+	text-align: center;
+	font-size: 30px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+.ustal a{
+	text-decoration: none;
+	color: black;
+}
+.ustal:hover{
+	background-color: lightskyblue;
+}
+.fon5{
+	font-size: 30px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 650px;
+	text-align: center;
+	color: white;
+}

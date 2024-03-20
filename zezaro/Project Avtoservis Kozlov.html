@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="Project Avtoservis Kozlov.css">
+</head>
+<body class="oblacko1">
+</div>
+	<div class="conteiner">
+	<div class="avto2"></div>
+	<div class="block3">
+		<a href="Project Avtoservis Kozlov2.html">О нас</a></div>
+		<div class="block4">
+			<a href="Project Avtoservis Kozlov3.html">Услуги</a></div>
+		<div class="block4">
+			<a href="Project Avtoservis Kozlov4.html">Как доехать</a></div>
+	</div>
+	<div class="conteiner">
+		<div class="block">
+			<div class="avto">Автосервис</div>
+		</div>
+		<div class="block5">
+			<div class="avto3">+7 (800) 535-35-35 ✆</div>
+		</div>
+	</div>
+	<div class="conteiner">
+	<div>
+		<div class="block6">Диагностика, сервисное обслуживание, ремонт, запчасти, <br>расходные материалы для автомобилей в Нижнекамске.</div>
+		<div class="block7"><a href="https://chat.whatsapp.com/GIRHVz71XT09Lm6hTyUaBI" target="_blank"rel="noopener noreferrer"><div class="whatsapp-button"><i class="fa fa-whatsapp"></i></div>Связь в WhatsApp ✉</a></div>
+</div>
+</div>
+<div class="conteiner2">
+	<div class="slider">
+		<div class="slider-line">
+			<img src="https://pictures.pibig.info/uploads/posts/2023-04/1680580502_pictures-pibig-info-p-avtoslesar-risunok-vkontakte-80.png" width="700px" height="450px">
+			<img src="https://avatars.mds.yandex.net/i?id=831033070f51a78345d407ebf3b0ab6347e7b8a5-9068831-images-thumbs&n=13" width="700px" height="450px">
+			<img src="https://www.kwikkarautoservices.com/wp-content/uploads/2022/02/signs-car-engine-needs-repair-min.png" width="700px" height="450px">
+		</div>
+		 
+	</div>
+	<div class="conteiner">
+	<button class="slider-prev"><<button>
+	<button class="slider-next">></button>
+</div>
+</div>
+<script type="text/javascript">
+	 window.addEventListener('load', function() {
+        document.querySelector('.loading').style.display = 'none'; // исчезновение анимации после загрузки
+        document.body.style.backgroundColor = '#fff'; // изменение фона страницы после загрузки
+    });
+	let offset = 0
+	const sliderLine= document.querySelector('.slider-line');
+	document.querySelector('.slider-next').addEventListener('click', function(){
+		offset += 700;
+		if (offset > 1400){
+			offset = 0;
+		}
+		sliderLine.style.left = -offset + 'PX';
+	});
+	document.querySelector('.slider-prev').addEventListener('click', function(){
+		offset -= 700;
+		if (offset <0){
+			offset = 1400;
+		}
+		sliderLine.style.left = -offset + 'PX';
+	});
+</script>
+</body>
+</html>

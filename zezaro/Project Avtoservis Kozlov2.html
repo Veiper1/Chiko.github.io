@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="Project Avtoservis Kozlov2.css">
+</head>
+<body class="fon">
+	<div class="knopka"><a href="Project Avtoservis Kozlov.html">На главную</a></div>
+	<div class="text1">Наш автосервис</div>
+	<div class="text2">Производится диагностика ходовой системы и двигателей в ходе планового обслуживания через каждые 10-15 тысяч километров. Наши специалисты рекомендуют делать диагностику перед дальней поездкой и по возвращению из нее. Для любителей экстремальных приключений, езды по бездорожью посещение диагностики должно быть в два раза чаще. Производимый комплекс исследований позволяет выдать заключение об исправной работе двигателя, ходовой части, либо ознакомить владельца автомобиля с перечнем необходимых работ по его ремонту.
+</div> 
+<div class="nub"></div>
+<div class="nub2"></div>
+<div id="popupButton" class="paral">
+	<button id="showPopup">задать вопрос мастеру</button>
+</div>
+<div id="popup" class="popup">
+	<div class="text3">Консультация</div>
+	<div class="text4">Модель авто и год выпуска:</div>
+	<div class="text5">
+		<input type="text" id="input1" placeholder="Пример: Lada Granta sedan 2024" style="width: 600px; height: 30px;">
+	</div>
+	<div class="text6">Вопрос, коротко:</div>
+	<div class="text7">
+		<input type="text" id="input2" placeholder="Пример: капитальный ремонт двигателя" style="width: 600px; height: 30px;">
+	</div>
+	<div class="text8">Телефон *</div>
+	<div class="text9">
+		<input type="text" id="input3" style="width: 600px; height: 30px;">
+	</div>
+	<div class="text10">
+		<button onclick="showAlert()" style="width: 120px; height: 60px;font-size: 20px;">Отправить</button>
+	</div>
+	<div id="notification"></div>
+    <div class="blockx">
+    	<button id="closePopup" >X</button>
+    </div>
+</div>
+<div class="koment"></div>
+<script type="text/javascript">
+	document.getElementById('showPopup').addEventListener('click', function() {
+    document.getElementById('popup').style.display = 'block';
+});
+	document.getElementById('closePopup').addEventListener('click', function() {
+    document.getElementById('popup').style.display = 'none';
+})	
+	 function showAlert() {
+	 	var input1 = document.getElementById('input1').value;
+        var input2 = document.getElementById('input2').value;
+        var input3 = document.getElementById('input3').value;
+        console.log("Данные на обработке...");
+		alert("данные на обработке с вами скоро свяжется диспетчер");
+
+}
+
+</script>
+</body>
+</html>
